@@ -1,11 +1,9 @@
-
-
-function myfunc(arg){
-let count = arg.length
-if (count===0){
+function myfunc(){
+const arg = process.argv.slice(2)
+if (arg.length===0){
     console.log("No argument")
 }
-else if (count === 1){
+else if (arg.length === 1){
     console.log("Argument found")
 }
 else{
@@ -13,4 +11,4 @@ else{
 }
 }
 
-myfunc([]);
+myfunc();
