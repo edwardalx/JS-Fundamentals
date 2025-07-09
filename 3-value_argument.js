@@ -3,9 +3,8 @@ function myfunc(arg){
         console.log("No argument");
         }
      else{
-       arg.forEach(element => {
-        console.log(element)
-       });
+        console.log(arg[0])
+       
     }
 } 
 myfunc(process.argv.slice(2))
