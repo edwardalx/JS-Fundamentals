@@ -1,4 +1,4 @@
-let a = ['c', 'Python','JavaScript']
+let a = ['C', 'Python','JavaScript']
 let b = ['fun','cool','amazing']
 
 
