@@ -7,7 +7,7 @@ else if (arg.length === 1){
     console.log("Argument found")
 }
 else{
-    console.log("Argumants found")
+    console.log("Arguments found")
 }
 }
 
