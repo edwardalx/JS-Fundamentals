@@ -8,7 +8,7 @@ function loopFunc(i){
 //     x++;
 // }
 
-[...Array(i)].forEach(() => {
+Array.from({length:i}).forEach(() => {
     console.log("C is fun");
 });
 }
