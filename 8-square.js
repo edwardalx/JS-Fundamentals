@@ -29,7 +29,7 @@
 
 function sqFunc(i){
     [...Array(i)].forEach(() => {
-        console.log('#'.repeat(i))
+        console.log('x'.repeat(i))
     });
 }
 sqFunc(5)
