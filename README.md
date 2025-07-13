@@ -17,3 +17,8 @@ let b = ['fun','cool','amazing']
 a.forEach((element,position) => {
     console.log(element + " is " + b[position]);
 });
+
+
+[...Array(5)].forEach(() => {
+    console.log("C is fun");
+});
