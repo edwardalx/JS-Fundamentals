@@ -26,11 +26,14 @@
 // }
 // // input = Number(process.argv.slice(2))
 // sqFunc(input)
-
+let input = Number(process.argv.slice(2))
 function sqFunc(i){
-    [...Array(i)].forEach(() => {
+if(input>0){
+[...Array(i)].forEach(() => {
         console.log('X'.repeat(i))
     });
 }
-input = Number(process.argv.slice(2))
+else{console.log("Missing size")}
+    
+}
 sqFunc(input)
