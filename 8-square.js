@@ -25,11 +25,12 @@
 //     }
 // }
 // // input = Number(process.argv.slice(2))
-// sqFunc(5)
+// sqFunc(input)
 
 function sqFunc(i){
     [...Array(i)].forEach(() => {
         console.log('x'.repeat(i))
     });
 }
-sqFunc(i)
+input = Number(process.argv.slice(2))
+sqFunc(input)
