@@ -32,4 +32,4 @@ function sqFunc(i){
         console.log('x'.repeat(i))
     });
 }
-sqFunc(5)
+sqFunc(i)
