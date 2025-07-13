@@ -29,7 +29,7 @@
 
 function sqFunc(i){
     [...Array(i)].forEach(() => {
-        console.log('x'.repeat(i))
+        console.log('X'.repeat(i))
     });
 }
 input = Number(process.argv.slice(2))
