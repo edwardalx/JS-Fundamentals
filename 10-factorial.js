@@ -21,7 +21,7 @@ function pdt(arg){
         return
     }
     let product = 1
-    for(let i=1; i<input; i++){
+    for(let i=1; i<=input; i++){
         product *=i
     }
     console.log(product)
